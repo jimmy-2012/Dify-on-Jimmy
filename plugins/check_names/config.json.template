@@ -1,0 +1,9 @@
+{
+  "rule_pattern": "^[A-Z][a-zA-Z]*(?: [A-Z][a-zA-Z]*)* [\\u4e00-\\u9fa5]+$",
+  "check_group_list": [],
+  "notify_template": "@{nickname} 请修改你的昵称，例如：Leo 王二",
+  "enable_check_all_groups": true,
+  "api_request_delay": 1,
+  "batch_size": 5,
+  "batch_delay_seconds": 300
+}
